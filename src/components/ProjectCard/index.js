@@ -46,7 +46,7 @@ export default class ProjectCard extends Component {
                 </section>
                 <section className=' mx-auto my-auto text-center'>
                   {githubLink && (
-                    <Card.Link href={githubLink} target='_blanket'>
+                    <Card.Link href={githubLink} target='_blank'>
                       GitHub
                     </Card.Link>
                   )}

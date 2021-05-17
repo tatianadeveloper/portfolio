@@ -46,12 +46,3 @@ export default class App extends Component {
     );
   }
 }
-
-/*<Route path='/about' component={HomePage} />
-            <Route path='/skills' component={Skills} />
-            <Route path='/education' component={Education} />
-            <Route path='/projects' component={Project} />
-            <Route path='/experience' component={Experience} />
-            <Route path='/contact' component={Contact} />
-            <Route path='/' component={HomePage} />
-            */
