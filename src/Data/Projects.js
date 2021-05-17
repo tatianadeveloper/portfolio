@@ -19,8 +19,8 @@ export const DataProjects = [
     name: 'Portfolio website',
     screenshot: 'Portfolio.png',
     description: 'The project is built in React',
-    githubLink: '',
-    link: '',
+    githubLink: 'https://github.com/tatianadeveloper/portfolio',
+    link: 'https://tatianadeveloper.github.io/portfolio/',
     stack: [
       DataStack.js,
       DataStack.react,

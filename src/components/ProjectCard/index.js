@@ -13,7 +13,7 @@ export default class ProjectCard extends Component {
     const { name, description, screenshot, githubLink, link, stack, feature } =
       this.props.project;
 
-    const logo = screenshot ? `/assets/${screenshot}` : '';
+    const logo = screenshot ? `../assets/${screenshot}` : '';
 
     const imageStyle = {
       objectFit: 'cover',
