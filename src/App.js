@@ -31,7 +31,7 @@ export default class App extends Component {
     ];
 
     return (
-      <HashRouter basename='/portfolio'>
+      <HashRouter>
         <Container fluid={true}>
           <NavHeader />
           <Switch>
