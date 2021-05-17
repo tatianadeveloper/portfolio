@@ -26,7 +26,7 @@ export default class App extends Component {
     ];
 
     return (
-      <Router>
+      <Router basename='/portfolio'>
         <Container fluid={true}>
           <NavHeader />
           <Switch>
