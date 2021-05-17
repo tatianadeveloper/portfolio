@@ -34,8 +34,8 @@ export const DataProjects = [
     id: 1,
     name: 'Kanban board',
     screenshot: '',
-    description: 'MERN stack Kanban board app. Currently In progress',
-    githubLink: '',
+    description: 'MERN stack Kanban board app. Currently In progress.',
+    githubLink: 'https://github.com/tatianadeveloper/Kanban',
     link: '',
     stack: [
       DataStack.js,
