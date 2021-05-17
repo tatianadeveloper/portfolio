@@ -8,7 +8,7 @@ export const DataProjects = [
     name: 'Tetris game',
     screenshot: 'Tetris.png',
     description:
-      'The project is built in vanila JavaScript, CSS and HTML canvas',
+      'The project is built in vanila JavaScript, CSS and HTML canvas.',
     githubLink: 'https://github.com/tatianadeveloper/Tetris',
     link: 'https://tatianadeveloper.github.io/Tetris/',
     stack: [DataStack.js, DataStack.html5, DataStack.css3, DataStack.webpack],
@@ -18,7 +18,7 @@ export const DataProjects = [
     id: 2,
     name: 'Portfolio website',
     screenshot: 'Portfolio.png',
-    description: 'The project is built in React',
+    description: 'The project is built in React.',
     githubLink: 'https://github.com/tatianadeveloper/portfolio',
     link: 'https://tatianadeveloper.github.io/portfolio/',
     stack: [
@@ -54,7 +54,7 @@ export const DataProjects = [
     name: 'Headfi',
     screenshot: 'Headfi.png',
     description:
-      'e-commerce website for headphones online store built on Wordpress and theme Flatsome',
+      'E-commerce website for headphones online store built on Wordpress and theme Flatsome.',
     githubLink: '',
     link: 'https://headfi.co.nz/',
     stack: [
@@ -71,7 +71,7 @@ export const DataProjects = [
     name: 'Dimension Screens',
     screenshot: 'DimensionScreens.png',
     description:
-      'e-commerce website for screens online store built on Wordpress and theme Flatsome',
+      'E-commerce website for screens online store built on Wordpress and theme Flatsome.',
     githubLink: '',
     link: 'https://dimensionscreens.co.nz/',
     stack: [
