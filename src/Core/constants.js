@@ -13,3 +13,5 @@ export const COLORS = {
 
 export const CV =
   'https://docs.google.com/document/d/1om3DgVvMB_XZ9bjMMkyZhix482jUDLfSaRhye2Baygg/edit?usp=sharing';
+
+export const GA = 'UA-200677337-1';

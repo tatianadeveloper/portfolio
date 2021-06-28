@@ -5,7 +5,9 @@
 import React, { useEffect } from 'react';
 import ReactGA from 'react-ga';
 
-ReactGA.initialize('G-7X1R5KQXZ9');
+import { GA } from './Core/constants';
+
+ReactGA.initialize(GA);
 
 export default (WrappedComponent, options = {}) => {
   const trackPage = (page) => {
