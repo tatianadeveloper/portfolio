@@ -19,6 +19,7 @@ export default class ExperienceCard extends Component {
       responsibilities,
     } = this.props.experience;
 
+
     const titleStyle = {
       fontSize: '20px',
       color: `${COLORS.headers}`,

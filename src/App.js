@@ -10,6 +10,8 @@ import Container from 'react-bootstrap/Container';
 
 import './App.css';
 
+import withTracker from './withTracker';
+
 import NavHeader from './components/Nav';
 import HomePage from './components/HomePage';
 import Skills from './components/Skills';
@@ -37,7 +39,11 @@ export default class App extends Component {
           <Switch>
             {navRoutes.map((route) => {
               return (
-                <Route exact path={route.path} component={route.component} />
+                <Route
+                  exact
+                  path={route.path}
+                  component={withTracker(route.component)}
+                />
               );
             })}
           </Switch>
